@@ -142,7 +142,7 @@ namespace Fonts
                 if (string.IsNullOrWhiteSpace(tmpFontPath))
                 {
                     Selection.activeObject = font;
-                    TMP_FontAsset_CreationMenu.CreateFontAsset();
+                    //TMP_FontAsset_CreationMenu.CreateFontAsset();
                     AssetDatabase.Refresh(ImportAssetOptions.Default);
                     var folderPath = Path.GetDirectoryName(fontPath);
                     var assetName = Path.GetFileNameWithoutExtension(fontPath);
